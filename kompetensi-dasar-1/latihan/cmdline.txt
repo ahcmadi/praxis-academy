@@ -1,0 +1,21 @@
+### history 
+clear
+ls
+cd ssh
+cd ..
+sudo nano ~/.bashrc
+exit
+java
+java -v
+clar
+pwd
+cd Desktop
+ZSH
+cd ~/Desktop
+cd ~
+xdg-open .
+sudo nano ~/.bash_aliases
+open
+open 
+souce ~/.bashrc
+source ~/.bashrc

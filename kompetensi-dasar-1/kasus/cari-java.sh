@@ -1,0 +1,1 @@
+find . -type f -name "java" && find . -type d -name "java" 
