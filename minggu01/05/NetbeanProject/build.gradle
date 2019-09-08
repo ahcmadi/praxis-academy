@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'NetbeanProject.JsonEncodeDemo'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'  
+    
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+    
+    // https://mvnrepository.com/artifact/org.dom4j/dom4j
+    compile group: 'org.dom4j', name: 'dom4j', version: '2.0.1'
+    
+    // https://mvnrepository.com/artifact/org.lucee/jdom2
+    compile group: 'org.lucee', name: 'jdom2', version: '2.0.6'
+
+
+
+}
