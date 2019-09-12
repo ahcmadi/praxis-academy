@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="journaldev.java.legacy.MyApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-12T01:22:34" hostname="achmadi-X455LAB" time="0.095">
+  <properties/>
+  <testcase name="testProcessMessages" classname="journaldev.java.legacy.MyApplicationTest" time="0.095"/>
+  <system-out><![CDATA[processMessages
+Email sent to  with Message=
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
