@@ -1,0 +1,40 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'Minggu0205.Main'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+    compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.3.0'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.4'
+    
+    // hibernate requirement
+    // https://mvnrepository.com/artifact/dom4j/dom4j
+//    compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
+//    // https://mvnrepository.com/artifact/org.apache.xalan/xalan
+//    compile group: 'org.apache.xalan', name: 'xalan', version: '2.7.1'
+//    // https://mvnrepository.com/artifact/xerces/xerces
+//    compile group: 'xerces', name: 'xerces', version: '2.4.0'
+//    // https://mvnrepository.com/artifact/cglib/cglib
+//    compile group: 'cglib', name: 'cglib', version: '3.3.0'
+//    // https://mvnrepository.com/artifact/xalan/xalan
+//    compile group: 'xalan', name: 'xalan', version: '2.6.0'
+//
+//    // https://mvnrepository.com/artifact/org.hibernate.common/hibernate-commons-annotations
+//    compile group: 'org.hibernate.common', name: 'hibernate-commons-annotations', version: '5.0.2.Final'
+//    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+//    compile group: 'org.slf4j', name: 'slf4j-api', version: '2.0.0-alpha0'
+//    
+//    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+//    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.4.Final'
+
+
+}
